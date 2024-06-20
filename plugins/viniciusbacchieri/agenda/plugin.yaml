@@ -1,0 +1,11 @@
+plugin:
+    name: 'viniciusbacchieri.agenda::lang.plugin.name'
+    description: 'viniciusbacchieri.agenda::lang.plugin.description'
+    author: 'Vinicius Bacchieri'
+    icon: wn-icon-adjust
+    replaces: {  }
+navigation:
+    agenda:
+        label: Agenda
+        url: viniciusbacchieri/agenda/agenda
+        icon: icon-calendar

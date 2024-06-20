@@ -1,0 +1,4 @@
+title: Agenda
+modelClass: ViniciusBacchieri\Agenda\Models\Agenda
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Agenda
+modelClass: ViniciusBacchieri\Agenda\Models\Agenda
+form: $/viniciusbacchieri/agenda/models/agenda/fields.yaml
+defaultRedirect: viniciusbacchieri/agenda/agenda
+create:
+    redirect: 'viniciusbacchieri/agenda/agenda/update/:id'
+    redirectClose: viniciusbacchieri/agenda/agenda
+update:
+    redirect: viniciusbacchieri/agenda/agenda
+    redirectClose: viniciusbacchieri/agenda/agenda

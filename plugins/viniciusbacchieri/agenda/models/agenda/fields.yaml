@@ -1,0 +1,41 @@
+fields:
+    status:
+        label: Ativo
+        span: auto
+        default: 1
+        type: switch
+    show_name:
+        label: Dropdown
+        options:
+            trio: 'Fabiano Bacchieri - trio'
+            solo: 'Show Solo'
+            show: Show
+        showSearch: true
+        span: full
+        type: dropdown
+    local:
+        label: Local
+        span: full
+        type: text
+    date:
+        label: Data
+        mode: date
+        span: left
+        type: datepicker
+    time:
+        label: Hora
+        mode: time
+        span: right
+        type: datepicker
+    city:
+        label: Cidade
+        span: auto
+        type: text
+    uf:
+        label: Estado
+        span: auto
+        type: text
+    url:
+        label: Link
+        span: full
+        type: text

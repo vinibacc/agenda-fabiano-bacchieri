@@ -1,0 +1,25 @@
+columns:
+    date:
+        label: Data
+        type: date
+        searchable: true
+    local:
+        label: Local
+        type: text
+        searchable: true
+    city:
+        label: Cidade
+        type: text
+        searchable: true
+    uf:
+        label: Estado
+        type: text
+        searchable: true
+    time:
+        label: Horário
+        type: time
+        searchable: true
+    show_name:
+        label: Show
+        type: text
+        searchable: true
